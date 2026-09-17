@@ -55,7 +55,7 @@ const INTENTS = [
   },
   {
     keywords: ["education", "degree", "college", "university", "bca", "cgpa", "gpa", "school", "study", "studying",
-      "graduate", "graduation", "semester", "Education", "academic", "qualification"],
+      "graduate", "graduation", "semester", "academic","Education" , "qualification"],
     reply: () => RAJA_KB.education
   },
   {
