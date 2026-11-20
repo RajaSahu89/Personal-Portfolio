@@ -388,6 +388,20 @@
         <li>I separated the application into frontend, API, database and business-logic layers. Next.js handles the UI and API route handlers, Prisma manages PostgreSQL access, Zod handles validation, and business logic such as categorization, recurring transactions and alerts is isolated in reusable modules.</li>
       </ul>
     </article>
+    <article class="project-card">
+      <div class="project-top">
+        <h3>Nexora Hrms</h3>
+        <div class="project-links"><a href="https://nexora-hrms.onrender.com/login" target="_blank" rel="noopener noreferrer" class="project-link project-live">Live demo</a><a href="https://github.com/RajaSahu89/nexora-hrms" target="_blank" rel="noopener noreferrer" class="project-link">Source</a></div>
+      </div>
+      <div class="project-stack">
+        <span class="pill pill-sm">TypeScript + JSX</span><span class="pill pill-sm">React</span><span class="pill pill-sm">tailwind.config.js</span><span class="pill pill-sm">postcss.config.js</span><span class="pill pill-sm">HTML / Tailwind CSS</span><span class="pill pill-sm">schema.prisma</span><span class="pill pill-sm">Express in TypeScript</span><span class="pill pill-sm">Node.js</span>
+      </div>
+      <ul>
+        <li><h3>Full-stack build</h3>Built an HR management system with a React 18 + TypeScript frontend (18 pages, Tailwind, Recharts, Framer Motion) and an Express + Prisma + PostgreSQL backend (about 30 models, 15 REST API modules, Zod validation), deployable on Render.</li>
+        <li><h3>Core HR modules</h3> Employees and departments Attendance with breaks and corrections.<br> Leave approvals with balances.<br> Payroll with PDF payslips.<br> Recruitment Kanban pipeline.<br> Performance reviews and goals.<br> Tasks, documents, announcements and reports.<br></li>
+        <li><h3>Security and access control</h3> Implemented JWT access tokens with rotating refresh cookies, bcrypt, and role-based access (Super Admin, HR, Manager, Employee) scoped by team or self. Added Helmet, rate limiting, secure file uploads and an audit log.</li>
+      </ul>
+    </article>
   </div>
 </section>
 
