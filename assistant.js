@@ -20,7 +20,8 @@ const RAJA_KB = {
     "Marlowe Reyes Photography — responsive photography site with galleries, lightbox and a full booking flow.",
     "Career Platform — full-stack React + Express + SQLite job platform with TF-IDF job matching and recruiter features.",
     "Expense Platform — Next.js, TypeScript, PostgreSQL & Prisma with duplicate-safe CSV imports and idempotent recurring expenses.",
-    "Todo App — Built a secure, zero-dependency backend using Node.js, featuring custom authentication, REST APIs, token security, and atomic data persistence. Deployed with Docker and Render, focusing on security, performance, and scalability."
+    "Todo App — Built a secure, zero-dependency backend using Node.js, featuring custom authentication, REST APIs, token security, and atomic data persistence. Deployed with Docker and Render, focusing on security, performance, and scalability.",
+    "NEXORA HRMS — A full-stack HR management system built with React, TypeScript, Node.js/Express, PostgreSQL and Prisma. It covers employees, attendance, leave, payroll with PDF payslips, recruitment, performance and tasks, secured with JWT authentication and role-based access for Admin, HR, Manager and Employee.",
   ].map((p, i) => `${i + 1}. ${p}`).join("\n"),
   education: "Final-year BCA (Honours) at Kingston College of Science, West Bengal State University — expected graduation May 2027, CGPA 7.0.",
   certifications: "Machine Learning (IBM SkillsBuild) and SQL & PL/SQL (MSME Tool Room, Kolkata), 2025–2026.",
